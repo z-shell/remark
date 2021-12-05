@@ -46,7 +46,7 @@
       "version": "14.0.0",
       "requires": "npm;bgn"
     },
-    "zplugin-ices": {
+    "zi-ices": {
       "default": {
         "git": "",
         "lucid": "",
