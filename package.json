@@ -1,27 +1,27 @@
 {
-  "_from": "remark@^14.0.0",
-  "_id": "zsh-remark@14.0.0",
+  "_from": "remark@^14.0.2",
+  "_id": "zsh-remark@14.0.2",
   "_inBundle": false,
   "_location": "/zsh-remark",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "remark@^14.0.0",
+    "raw": "remark@^14.0.2",
     "name": "remark",
     "escapedName": "remark",
-    "rawSpec": "^14.0.0",
+    "rawSpec": "^14.0.2",
     "saveSpec": null,
-    "fetchSpec": "^14.0.0"
+    "fetchSpec": "^14.0.2"
   },
   "_requiredBy": [],
-  "_spec": "remark@^14.0.0",
+  "_spec": "remark@^14.0.2",
   "_where": "/root/github2/pkg-remark",
   "author": "@unifiedjs collective",
   "bugs": {
     "url": "https://github.com/remarkjs/remark/issues"
   },
-  "version": "14.0.0",
+  "version": "14.0.2",
   "contributors": [],
   "dependencies": {},
   "deprecated": false,
