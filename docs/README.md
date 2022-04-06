@@ -13,21 +13,6 @@
 
 </h3>
 
-- [Available `pack''` invocations](#available-pack-invocations)
-- [Default Profile](#default-profile)
-- [`man-only` Profile](#man-only-profile)
-- [`html-only` Profile](#html-only-profile)
-
-> This repository compatible with [ZI](https://github.com/z-shell/zi)
-
-The [remarkjs/remark](https://github.com/remarkjs/remark) zsh package that can use the NPM package registry to automatically:
-
-- get the plugin's Git repository OR release-package URL,
-- get the list of the recommended ices for the plugin,
-  - there can be multiple lists of ices,
-  - the ice lists are stored in _profiles_; there's at least one profile, _default_,
-  - the ices can be selectively overridden.
-
 ### Available `pack''` invocations
 
 ```zsh
@@ -84,3 +69,15 @@ zi lucid as=null \
     sbin="n:node_modules/.bin/remark" for \
         z-shell/null
 ```
+
+---
+
+> This repository compatible with [ZI](https://github.com/z-shell/zi)
+
+The [remarkjs/remark](https://github.com/remarkjs/remark) zsh package that can use the NPM package registry to automatically:
+
+- get the plugin's Git repository OR release-package URL,
+- get the list of the recommended ices for the plugin,
+  - there can be multiple lists of ices,
+  - the ice lists are stored in _profiles_; there's at least one profile, _default_,
+  - the ices can be selectively overridden.
