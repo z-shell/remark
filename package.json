@@ -1,35 +1,12 @@
 {
-  "_from": "remark@^14.0.2",
-  "_id": "zsh-remark@14.0.2",
-  "_inBundle": false,
-  "_location": "/zsh-remark",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "remark@^14.0.2",
-    "name": "remark",
-    "escapedName": "remark",
-    "rawSpec": "^14.0.2",
-    "saveSpec": null,
-    "fetchSpec": "^14.0.2"
-  },
-  "_requiredBy": [],
-  "_spec": "remark@^14.0.2",
-  "_where": "/root/github2/pkg-remark",
-  "author": "@unifiedjs collective",
-  "bugs": {
-    "url": "https://github.com/remarkjs/remark/issues"
-  },
+  "name": "zsh-remark",
   "version": "14.0.2",
   "contributors": [],
   "dependencies": {},
   "deprecated": false,
   "description": "Markdown processor powered by plugins part of the @unifiedjs collective",
   "devDependencies": {},
-  "directories": {
-    "test": "test"
-  },
+  "license": "MIT",
   "homepage": "https://github.com/remarkjs/remark",
   "keywords": [
     "markdown",
@@ -37,13 +14,15 @@
     "markdown converter",
     "zsh"
   ],
-  "license": "MIT",
-  "name": "zsh-remark",
+  "author": "@unifiedjs collective",
+  "bugs": {
+    "url": "https://github.com/remarkjs/remark/issues"
+  },
   "zsh-data": {
     "plugin-info": {
       "user": "z-shell",
       "plugin": "null",
-      "version": "14.0.0",
+      "version": "14.0.2",
       "requires": "npm;bgn"
     },
     "zi-ices": {
