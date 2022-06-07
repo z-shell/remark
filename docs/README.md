@@ -1,17 +1,15 @@
-<h2 align="center">
+<h1 align="center">
   <a href="https://github.com/z-shell/zi">
-    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80" />
-  </a>
-❮ ZI ❯ Package - Remark
-</h2>
+    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="60px" height="60px" />
+  </a> ❮ ZI ❯ Package - Remark </h1>
 
-<h3 align="center">
+<h2 align="center">
 
 | **Package source:** | Tarball | Git |             Node             | Gem |
 | :-----------------: | :-----: | :-: | :--------------------------: | :-: |
 |     **Status:**     |    -    |  -  | :heavy_check_mark: (default) | :x: |
 
-</h3>
+</h2>
 
 ### Available `pack''` invocations
 
