@@ -1,9 +1,5 @@
 {
   "name": "zsh-remark",
-  "version": "14.0.2",
-  "contributors": [],
-  "dependencies": {},
-  "deprecated": false,
   "description": "Markdown processor powered by plugins part of the @unifiedjs collective",
   "devDependencies": {},
   "license": "MIT",
