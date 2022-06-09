@@ -1,15 +1,25 @@
 <h1 align="center">
-  <a href="https://github.com/z-shell/zi">
-    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="60px" height="60px" />
-  </a> ❮ ZI ❯ Package - Remark </h1>
-
-<h2 align="center">
-
-| **Package source:** | Tarball | Git |             Node             | Gem |
-| :-----------------: | :-----: | :-: | :--------------------------: | :-: |
-|     **Status:**     |    -    |  -  | :heavy_check_mark: (default) | :x: |
-
-</h2>
+  <p><a href="https://github.com/z-shell/zi">
+    <img align="center" src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="60px" height="60px" /></a>
+    ❮ ZI ❯ Package - Remark </p>
+</h1>
+<h3 align="center">
+<table>
+    <tr>
+        <td><b>Package source:</b></td>
+        <td>Tarball</td>
+        <td>Git</td>
+        <td>Node</td>
+        <td>Gem</td>
+    </tr>
+    <tr>
+        <td><b>Status:</b></td>
+        <td>➖</td>
+        <td>➖</td>
+        <td>✔️ (default)</td>
+        <td>❌</td>
+    </tr>
+</table></h3><hr />
 
 ### Available `pack''` invocations
 
@@ -37,9 +47,9 @@ The ZI command executed will be equivalent to:
 
 ```zsh
 zi lucid as=null \
-    node="remark <- !remark-cli; remark-man; remark-html" \,
-    sbin="n:node_modules/.bin/remark" for \
-        z-shell/null
+  node="remark <- !remark-cli; remark-man; remark-html" \
+  sbin="n:node_modules/.bin/remark" for \
+    z-shell/null
 ```
 
 ### `man-only` Profile
@@ -50,9 +60,9 @@ The ZI command executed will be equivalent to:
 
 ```zsh
 zi lucid as=null \
-    node="remark <- !remark-cli; remark-man" \,
-    sbin="n:node_modules/.bin/remark" for \
-        z-shell/null
+  node="remark <- !remark-cli; remark-man" \
+  sbin="n:node_modules/.bin/remark" for \
+    z-shell/null
 ```
 
 ### `html-only` Profile
@@ -63,16 +73,16 @@ The ZI command executed will be equivalent to:
 
 ```zsh
 zi lucid as=null \
-    node="remark <- !remark-cli; remark-html" \,
-    sbin="n:node_modules/.bin/remark" for \
-        z-shell/null
+  node="remark <- !remark-cli; remark-html" \,
+  sbin="n:node_modules/.bin/remark" for \
+    z-shell/null
 ```
 
 ---
 
 > This repository compatible with [ZI](https://github.com/z-shell/zi)
 
-The [remarkjs/remark](https://github.com/remarkjs/remark) zsh package that can use the NPM package registry to automatically:
+The [remarkjs/remark](https://github.com/remarkjs/remark) zsh package that uses the [zsh-string-lib](https://github.com/z-shell/zsh-string-lib) to automatically:
 
 - get the plugin's Git repository OR release-package URL,
 - get the list of the recommended ices for the plugin,
