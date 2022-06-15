@@ -1,7 +1,6 @@
 {
   "name": "zsh-remark",
   "description": "Markdown processor powered by plugins part of the @unifiedjs collective",
-  "devDependencies": {},
   "license": "MIT",
   "homepage": "https://github.com/remarkjs/remark",
   "keywords": [
@@ -17,8 +16,7 @@
   "zsh-data": {
     "plugin-info": {
       "user": "z-shell",
-      "plugin": "null",
-      "version": "14.0.2",
+      "plugin": "0",
       "requires": "npm;bgn"
     },
     "zi-ices": {
