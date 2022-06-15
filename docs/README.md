@@ -21,15 +21,17 @@
     </tr>
 </table></h3><hr />
 
-### Available `pack''` invocations
+## Available `pack''` invocations
 
-```zsh
+```shell
 # Download the Node package of remark-cli, remark-man and remark-html
 zi pack for remark
-
+```
+```shell
 # Download the Node package of remark-cli and remark-man
 zi pack"man-only" for remark
-
+```
+```shell
 # Download the Node package of remark-cli and remark-html
 zi pack"html-only" for remark
 ```
@@ -38,14 +40,11 @@ zi pack"html-only" for remark
 
 Provides the CLI command `remark` with two plugins: Man and Html.
 
-The Node packages are installed locally into a null-plugin directory (feature of
-the bin-gem-node annex) and provided to the command line through _shims_, i.e.:
-automatic forwarder scripts created under `$ZPFX/bin` (which is added to the
-`$PATH` by default; shims are also a bin-gem-node annex feature).
+The Node packages are installed locally into a null-plugin directory (feature of the bin-gem-node annex) and provided to the command line through _shims_, i.e.: automatic forwarder scripts created under `$ZPFX/bin` (which is added to the `$PATH` by default; shims are also a bin-gem-node annex feature).
 
 The ZI command executed will be equivalent to:
 
-```zsh
+```shell
 zi lucid as=null \
   node="remark <- !remark-cli; remark-man; remark-html" \
   sbin="n:node_modules/.bin/remark" for \
@@ -58,7 +57,7 @@ Provides the CLI command `remark` with single plugin: Man.
 
 The ZI command executed will be equivalent to:
 
-```zsh
+```shell
 zi lucid as=null \
   node="remark <- !remark-cli; remark-man" \
   sbin="n:node_modules/.bin/remark" for \
