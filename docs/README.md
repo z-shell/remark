@@ -81,7 +81,7 @@ zi lucid as=null \
 
 > This repository compatible with [ZI](https://github.com/z-shell/zi)
 
-The [remarkjs/remark](https://github.com/remarkjs/remark) zsh package that uses the [zsh-string-lib](https://github.com/z-shell/zsh-string-lib) to automatically:
+The [remarkjs/remark](https://github.com/remarkjs/remark) zsh package. Zi's package support reads its `package.json` to automatically:
 
 - get the plugin's Git repository OR release-package URL,
 - get the list of the recommended ices for the plugin,
